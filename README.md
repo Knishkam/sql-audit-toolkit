@@ -117,5 +117,3 @@ docker rm -f sql_audit_mysql
 If you have slow MySQL endpoints/reports, DM me: "SQL AUDIT"  
 Email: shivamshukla111111@gmail.com
 ```
-
-To paste cleanly on GitHub: open `README.md` → click **Edit (pencil)** → paste in the editor (not preview) → Commit.
