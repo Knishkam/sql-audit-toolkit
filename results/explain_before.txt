@@ -1,2 +1,11 @@
-# id	select_type	table	partitions	type	possible_keys	key	key_len	ref	rows	filtered	Extra
+# Case: case_01
+# Stage: BEFORE (baseline)
+# Query:
+#   SELECT id, user_id, status, created_at, total_amount
+#   FROM orders
+#   WHERE user_id = 1234 AND status = 'paid'
+#   ORDER BY created_at DESC
+#   LIMIT 50;
+
+id	select_type	table	partitions	type	possible_keys	key	key_len	ref	rows	filtered	Extra
 1	SIMPLE	orders		ref	idx_status	idx_status	82	const	1	100.00	Using where; Using filesort
