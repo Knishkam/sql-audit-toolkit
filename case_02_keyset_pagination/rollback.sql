@@ -1,0 +1,1 @@
+DROP INDEX idx_status_created_id ON orders;

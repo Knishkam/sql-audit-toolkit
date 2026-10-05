@@ -1,0 +1,1 @@
+CREATE INDEX idx_status_created_id ON orders (status, created_at, id);
