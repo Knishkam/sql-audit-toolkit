@@ -1,0 +1,13 @@
+*************************** 1. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: orders
+   partitions: NULL
+         type: range
+possible_keys: PRIMARY,idx_status,idx_status_created_id
+          key: idx_status_created_id
+      key_len: 17
+          ref: NULL
+         rows: 102341
+     filtered: 100.00
+        Extra: Using index condition; Backward index scan

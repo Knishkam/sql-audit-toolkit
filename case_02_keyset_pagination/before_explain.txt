@@ -1,0 +1,13 @@
+*************************** 1. row ***************************
+           id: 1
+  select_type: SIMPLE
+        table: orders
+   partitions: NULL
+         type: ref
+possible_keys: idx_status
+          key: idx_status
+      key_len: 1
+          ref: const
+         rows: 102340
+     filtered: 100.00
+        Extra: Using index condition; Using filesort
